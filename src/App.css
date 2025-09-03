@@ -87,6 +87,7 @@ body{
   box-shadow: 5px 5px 10px #FB2E86, -5px -5px 10px #7E33E0;
   transform: translateY(-5px);
   color: white;
+  border: none;
 }
 
 .nav-items {
