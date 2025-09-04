@@ -28,11 +28,15 @@ function App() {
           <ul className="nav-items">
             <li><a href="#">Cadastrar Produtos</a></li>
             <li><a href="#">Ver todos os Produtos</a></li>
+            <li><a href="#">Cadastrar categorias</a></li>
           </ul>
         </nav>
 
         <button className='btn'>Promoções</button>
-        <button className='btn'></button>
+        <button className='btn'>Eletrônicos</button>
+        <button className='btn'>Limpeza</button>
+        <button className='btn'>Livros</button>
+        
 
         <div id="input-box">
           <input id="input" type="text" placeholder="pesquise aqui" />
