@@ -21,7 +21,7 @@ function App() {
             aria-label="Abrir menu"
           >
             <span className="material-symbols-outlined">
-              shopping_cart
+              menu
             </span>
           </button>
 
@@ -31,8 +31,8 @@ function App() {
           </ul>
         </nav>
 
-        <p>Produtos</p>
-        <p>contate-nos</p>
+        <button className='btn'>Promoções</button>
+        <button className='btn'></button>
 
         <div id="input-box">
           <input id="input" type="text" placeholder="pesquise aqui" />
