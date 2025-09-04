@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Fone from './assets/fone.jpg'
+import Fone from './assets/fone.png'
 import Lupa from './assets/lupa.svg';
 
 function App() {
