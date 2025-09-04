@@ -53,6 +53,47 @@ function App() {
           <p>$199.99</p>
           <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
         </div>
+
+        <div className="product-card">
+          <img src={Fone} alt="Product 1" className='product-img' />
+          <h3>Nome do produto</h3>
+          <p>$199.99</p>
+          <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
+        </div>
+
+
+        <div className="product-card">
+          <img src={Fone} alt="Product 1" className='product-img' />
+          <h3>Nome do produto</h3>
+          <p>$199.99</p>
+          <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
+        </div>
+
+
+
+        <div className="product-card">
+          <img src={Fone} alt="Product 1" className='product-img' />
+          <h3>Nome do produto</h3>
+          <p>$199.99</p>
+          <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
+        </div>
+
+
+
+        <div className="product-card">
+          <img src={Fone} alt="Product 1" className='product-img' />
+          <h3>Nome do produto</h3>
+          <p>$199.99</p>
+          <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
+        </div>
+
+
+        <div className="product-card">
+          <img src={Fone} alt="Product 1" className='product-img' />
+          <h3>Nome do produto</h3>
+          <p>$199.99</p>
+          <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
+        </div>
       </div>
     </>
   );
