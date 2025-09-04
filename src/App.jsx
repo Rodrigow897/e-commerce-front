@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Fone from './assets/fone.png'
 import Lupa from './assets/lupa.svg';
+import ProductCard from './components/ProductCard';
 
 function App() {
   const [navActive, setNavActive] = useState(false);
@@ -102,12 +103,15 @@ function App() {
           <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
         </div>
 
-        <div className="product-card">
-          <img src={Fone} alt="Product 1" className='product-img' />
-          <h3>Nome do produto</h3>
-          <p>$199.99</p>
-          <button className='add-to-cart' data-id="1" data-name="Nome do produto" data-price="199.99">Add ao Carrinho</button>
-        </div>
+        <ProductCard
+          productName="Headset"
+          src= {Fone}
+          price= "$99.99"
+          dataId="2"
+          dataName="Headset"
+          dataPrice="$99.99"
+        />
+        
       </div>
     </>
   );
